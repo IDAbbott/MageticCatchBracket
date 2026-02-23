@@ -5,7 +5,24 @@
   "uniqueID": "id-4",
   "name": "MageticCatchBracket",
   "topLevel": true,
-  "allAtoms": [],
+  "allAtoms": [
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.17089125102207686,
+      "y": 0.47149122807017546,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 3
+        },
+        {
+          "name": "diameter",
+          "ioValue": 50
+        }
+      ]
+    }
+  ],
   "allConnectors": [],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
