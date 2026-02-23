@@ -14,16 +14,39 @@
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 3
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "diameter",
           "ioValue": 50
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2708912510220769,
+      "y": 0.47149122807017546,
+      "uniqueID": "id-10",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 12
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-10"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
