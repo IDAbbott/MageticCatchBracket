@@ -7,6 +7,18 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-11",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
       "atomType": "RegularPolygon",
       "x": 0.17089125102207686,
       "y": 0.47149122807017546,
@@ -14,8 +26,7 @@
       "ioValues": [
         {
           "name": "number of sides",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "diameter",
