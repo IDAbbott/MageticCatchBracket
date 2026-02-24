@@ -231,7 +231,7 @@
     {
       "atomType": "Assembly",
       "x": 0.652493867538839,
-      "y": 0.6864035087719298,
+      "y": 0.7039473684210527,
       "uniqueID": "id-62",
       "ioValues": [
         {
@@ -382,7 +382,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 6
+          "ioValue": 6.5
         }
       ]
     },
@@ -412,8 +412,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.38920686835650037,
-      "y": 0.9298245614035088,
+      "x": 0.38511856091578084,
+      "y": 0.9100877192982456,
       "uniqueID": "id-98",
       "ioValues": [
         {
@@ -426,18 +426,19 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 1.5
         },
         {
           "name": "zDist",
-          "ioValue": 7
+          "ioValue": 7,
+          "currentEquation": "7"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.37040065412919054,
-      "y": 0.8245614035087718,
+      "x": 0.36794766966475884,
+      "y": 0.7916666666666667,
       "uniqueID": "id-99",
       "ioValues": [
         {
@@ -446,16 +447,17 @@
         },
         {
           "name": "xDist",
-          "ioValue": 17.5,
-          "currentEquation": "17.5"
+          "ioValue": 16.5,
+          "currentEquation": "16.5"
         },
         {
           "name": "yDist",
-          "ioValue": 1
+          "ioValue": 1.5
         },
         {
           "name": "zDist",
-          "ioValue": 7
+          "ioValue": 7,
+          "currentEquation": "7"
         }
       ]
     },
