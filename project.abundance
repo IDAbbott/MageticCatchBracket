@@ -83,11 +83,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 3
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "zDist",
-          "ioValue": 2
+          "ioValue": 4
         }
       ]
     },
@@ -306,8 +307,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.9501226492232216,
-      "y": 0.7982456140350878,
+      "x": 0.946034341782502,
+      "y": 0.8092105263157894,
       "uniqueID": "id-89",
       "ioValues": [
         {
@@ -360,8 +361,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.28699918233851185,
-      "y": 0.8157894736842105,
+      "x": 0.30744071954210955,
+      "y": 0.8815789473684211,
       "uniqueID": "id-99",
       "ioValues": [
         {
@@ -370,7 +371,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -378,8 +380,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 7,
-          "currentEquation": "7"
+          "ioValue": 2
         }
       ]
     },
@@ -450,8 +451,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6950122649223222,
-      "y": 0.5526315789473684,
+      "x": 0.6917416189697465,
+      "y": 0.5394736842105263,
       "uniqueID": "id-134",
       "ioValues": [
         {
@@ -512,11 +513,12 @@
         },
         {
           "name": "x-axis degrees",
-          "ioValue": 0
+          "ioValue": 90
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "z-axis degrees",
@@ -574,8 +576,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4873262469337694,
-      "y": 0.7543859649122807,
+      "x": 0.5551921504497138,
+      "y": 0.7214912280701754,
       "uniqueID": "id-158",
       "ioValues": [
         {
@@ -616,7 +618,7 @@
         },
         {
           "name": "z-axis degrees",
-          "ioValue": 0
+          "ioValue": 120
         }
       ]
     }
