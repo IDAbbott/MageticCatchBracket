@@ -83,7 +83,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 1
+          "ioValue": 3
         },
         {
           "name": "zDist",
@@ -94,7 +94,7 @@
     {
       "atomType": "Difference",
       "x": 0.6132461161079313,
-      "y": 0.22149122807017546,
+      "y": 0.20394736842105263,
       "uniqueID": "id-29",
       "ioValues": [
         {
@@ -120,7 +120,7 @@
         },
         {
           "name": "diameter",
-          "ioValue": 40
+          "ioValue": 35
         }
       ]
     },
@@ -346,8 +346,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7219950940310711,
-      "y": 0.47149122807017546,
+      "x": 0.7195421095666393,
+      "y": 0.4671052631578948,
       "uniqueID": "id-89",
       "ioValues": [
         {
@@ -373,18 +373,6 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "MageticCatchBracket"
-    },
-    {
-      "atomType": "Circle",
-      "x": 0.15208503679476698,
-      "y": 0.7697368421052632,
-      "uniqueID": "id-94",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 6.5
-        }
-      ]
     },
     {
       "atomType": "Rotate",
@@ -474,6 +462,23 @@
         {
           "name": "height",
           "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "x": 0.10057236304170074,
+      "y": 0.793859649122807,
+      "uniqueID": "id-122",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6,
+          "currentEquation": "6"
+        },
+        {
+          "name": "diameter",
+          "ioValue": 7
         }
       ]
     }
@@ -581,11 +586,6 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-94",
-      "ap2ID": "id-115"
-    },
-    {
-      "ap2Name": "geometry",
       "ap1ID": "id-97",
       "ap2ID": "id-98"
     },
@@ -608,6 +608,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-115",
       "ap2ID": "id-97"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-122",
+      "ap2ID": "id-115"
     }
   ],
   "unitsKey": "MM",
