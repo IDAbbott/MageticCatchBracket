@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2796402289452167,
-      "y": 0.09210526315789473,
+      "x": 0.2653748946925021,
+      "y": 0.491725768321513,
       "uniqueID": "id-10",
       "ioValues": [
         {
@@ -36,8 +36,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.7506318449873631,
-      "y": 0.14657210401891255,
+      "x": 0.6183656276326874,
+      "y": 0.6052009456264775,
       "uniqueID": "id-29",
       "ioValues": [
         {
@@ -52,8 +52,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2747342600163532,
-      "y": 0.3706140350877193,
+      "x": 0.2611625947767481,
+      "y": 0.7328605200945627,
       "uniqueID": "id-40",
       "ioValues": [
         {
@@ -68,8 +68,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.4448078495502862,
-      "y": 0.32894736842105265,
+      "x": 0.4448188711036226,
+      "y": 0.6855791962174941,
       "uniqueID": "id-56",
       "ioValues": [
         {
@@ -92,8 +92,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.946034341782502,
-      "y": 0.8048245614035088,
+      "x": 0.7818028643639428,
+      "y": 0.8203309692671394,
       "uniqueID": "id-89",
       "ioValues": [
         {
@@ -111,223 +111,19 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "MageticCatchBracket",
-          "currentEquation": "MageticCatchBracket"
+          "ioValue": "Camera Bracket Washer",
+          "currentEquation": "Camera Bracket Washer"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "MageticCatchBracket"
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5772690106295993,
-      "y": 0.8706140350877193,
-      "uniqueID": "id-97",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 240
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.30744071954210955,
-      "y": 0.8815789473684211,
-      "uniqueID": "id-99",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 10
-        },
-        {
-          "name": "zDist",
-          "ioValue": 2
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.1365494685200327,
-      "y": 0.787280701754386,
-      "uniqueID": "id-115",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "RegularPolygon",
-      "x": 0.0580539656582175,
-      "y": 0.7894736842105263,
-      "uniqueID": "id-122",
-      "ioValues": [
-        {
-          "name": "number of sides",
-          "ioValue": 6
-        },
-        {
-          "name": "diameter",
-          "ioValue": 7.2
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6884709730171709,
-      "y": 0.543859649122807,
-      "uniqueID": "id-134",
-      "ioValues": [
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 4",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 5",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 6",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 7",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.23793949304987735,
-      "y": 0.6907894736842105,
-      "uniqueID": "id-145",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 90
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.33442354865085855,
-      "y": 0.793859649122807,
-      "uniqueID": "id-157",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": -16.5
-        },
-        {
-          "name": "yDist",
-          "ioValue": 1.5
-        },
-        {
-          "name": "zDist",
-          "ioValue": 7
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.36385936222403925,
-      "y": 0.6951754385964912,
-      "uniqueID": "id-158",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 16.5
-        },
-        {
-          "name": "yDist",
-          "ioValue": 1.5
-        },
-        {
-          "name": "zDist",
-          "ioValue": 7
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.633687653311529,
-      "y": 0.9605263157894738,
-      "uniqueID": "id-173",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 120
-        }
-      ]
+      "partName": "Camera Bracket Washer"
     },
     {
       "atomType": "Circle",
-      "x": 0.11878685762426286,
-      "y": 0.3806146572104019,
+      "x": 0.09182813816343724,
+      "y": 0.7257683215130024,
       "uniqueID": "id-288",
       "ioValues": [
         {
@@ -338,8 +134,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.10699241786015165,
-      "y": 0.1536643026004728,
+      "x": 0.09098567818028644,
+      "y": 0.4869976359338061,
       "uniqueID": "id-291",
       "ioValues": [
         {
@@ -348,7 +144,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 14
+          "ioValue": 10
         }
       ]
     }
@@ -378,66 +174,6 @@
       "ap2Name": "remove",
       "ap1ID": "id-56",
       "ap2ID": "id-29"
-    },
-    {
-      "ap2Name": "Shape 4",
-      "ap1ID": "id-97",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-99",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-99",
-      "ap2ID": "id-97"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-99",
-      "ap2ID": "id-173"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-115",
-      "ap2ID": "id-145"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-115",
-      "ap2ID": "id-99"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-122",
-      "ap2ID": "id-115"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-145",
-      "ap2ID": "id-158"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-145",
-      "ap2ID": "id-157"
-    },
-    {
-      "ap2Name": "Shape 5",
-      "ap1ID": "id-157",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "Shape 7",
-      "ap1ID": "id-158",
-      "ap2ID": "id-134"
-    },
-    {
-      "ap2Name": "Shape 6",
-      "ap1ID": "id-173",
-      "ap2ID": "id-134"
     },
     {
       "ap2Name": "geometry",
