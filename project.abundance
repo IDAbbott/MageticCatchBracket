@@ -30,7 +30,7 @@
         },
         {
           "name": "height",
-          "ioValue": 20
+          "ioValue": 15
         }
       ]
     },
@@ -133,18 +133,19 @@
       ]
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.09098567818028644,
-      "y": 0.4869976359338061,
-      "uniqueID": "id-291",
+      "atomType": "RegularPolygon",
+      "x": 0.08845829823083402,
+      "y": 0.3404255319148936,
+      "uniqueID": "id-318",
       "ioValues": [
         {
-          "name": "x length",
-          "ioValue": 10
+          "name": "number of sides",
+          "ioValue": 6,
+          "currentEquation": "6"
         },
         {
-          "name": "y length",
-          "ioValue": 10
+          "name": "diameter",
+          "ioValue": 12
         }
       ]
     }
@@ -182,7 +183,7 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-291",
+      "ap1ID": "id-318",
       "ap2ID": "id-10"
     }
   ],
