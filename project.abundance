@@ -1,192 +1,192 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-4",
-    "name": "CameraBracketWasher",
-    "topLevel": true,
-    "allAtoms": [
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-4",
+  "name": "CameraBracketWasher",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-11",
+      "ioValues": [
         {
-            "atomType": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": "id-11",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "x": 0.2653748946925021,
-            "y": 0.491725768321513,
-            "uniqueID": "id-10",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 20
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "x": 0.6183656276326874,
-            "y": 0.6052009456264775,
-            "uniqueID": "id-29",
-            "ioValues": [
-                {
-                    "name": "retain",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "remove",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "x": 0.2611625947767481,
-            "y": 0.7328605200945627,
-            "uniqueID": "id-40",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 20
-                }
-            ]
-        },
-        {
-            "atomType": "Move",
-            "x": 0.4448188711036226,
-            "y": 0.6855791962174941,
-            "uniqueID": "id-56",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Export",
-            "x": 0.7818028643639428,
-            "y": 0.8203309692671394,
-            "uniqueID": "id-89",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "STEP",
-                    "currentEquation": "STEP"
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Camera Bracket Washer",
-                    "currentEquation": "Camera Bracket Washer"
-                }
-            ],
-            "type": "STEP",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Camera Bracket Washer"
-        },
-        {
-            "atomType": "Circle",
-            "x": 0.09182813816343724,
-            "y": 0.7257683215130024,
-            "uniqueID": "id-288",
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 7
-                }
-            ]
-        },
-        {
-            "atomType": "Rectangle",
-            "x": 0.09098567818028644,
-            "y": 0.4869976359338061,
-            "uniqueID": "id-291",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ]
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
-    ],
-    "allConnectors": [
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2653748946925021,
+      "y": 0.491725768321513,
+      "uniqueID": "id-10",
+      "ioValues": [
         {
-            "ap2Name": "retain",
-            "ap1ID": "id-10",
-            "ap2ID": "id-29"
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-            "ap2Name": "number or geometry",
-            "ap1ID": "id-29",
-            "ap2ID": "id-11"
-        },
-        {
-            "ap2Name": "geometry",
-            "ap1ID": "id-29",
-            "ap2ID": "id-89"
-        },
-        {
-            "ap2Name": "geometry",
-            "ap1ID": "id-40",
-            "ap2ID": "id-56"
-        },
-        {
-            "ap2Name": "remove",
-            "ap1ID": "id-56",
-            "ap2ID": "id-29"
-        },
-        {
-            "ap2Name": "geometry",
-            "ap1ID": "id-288",
-            "ap2ID": "id-40"
-        },
-        {
-            "ap2Name": "geometry",
-            "ap1ID": "id-291",
-            "ap2ID": "id-10"
+          "name": "height",
+          "ioValue": 20
         }
-    ],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.6183656276326874,
+      "y": 0.6052009456264775,
+      "uniqueID": "id-29",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2611625947767481,
+      "y": 0.7328605200945627,
+      "uniqueID": "id-40",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4448188711036226,
+      "y": 0.6855791962174941,
+      "uniqueID": "id-56",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7818028643639428,
+      "y": 0.8203309692671394,
+      "uniqueID": "id-89",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Camera Bracket Washer",
+          "currentEquation": "Camera Bracket Washer"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Camera Bracket Washer"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.09182813816343724,
+      "y": 0.7257683215130024,
+      "uniqueID": "id-288",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 7
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.09098567818028644,
+      "y": 0.4869976359338061,
+      "uniqueID": "id-291",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-10",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "id-11"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-29",
+      "ap2ID": "id-89"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-40",
+      "ap2ID": "id-56"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-56",
+      "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-288",
+      "ap2ID": "id-40"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-291",
+      "ap2ID": "id-10"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
